@@ -11,8 +11,8 @@ export default function Navegacao({ itens, ativo, onEscolher }) {
               onClick={onEscolher}
               className={
                 item.caminho === ativo
-                  ? "block rounded bg-white px-3 py-3 text-base font-bold text-green-900"
-                  : "block rounded px-3 py-3 text-base text-white hover:bg-green-700"
+                  ? "block rounded bg-green-800 px-3 py-3 text-base font-bold text-white"
+                  : "block rounded px-3 py-3 text-base text-green-900 hover:bg-green-100"
               }
             >
               {item.texto}
