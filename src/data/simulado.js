@@ -1,7 +1,7 @@
 import { indiceCalor, nivelPorIndice } from "@/lib/calor";
 
 // Se o grupo escolher outra rota, é só trocar aqui (ex.: "COL-PARA")
-const PREFIXO = "COL-CAM";
+const PREFIXO = "COL-PARA";
 
 // Recebe os dados "crus" de uma equipe e devolve no formato do contrato.
 // O índice de calor e o estado são calculados, para nunca ficarem errados.
